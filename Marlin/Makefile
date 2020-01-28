@@ -774,7 +774,7 @@ all: sizeafter
 build: elf hex bin
 
 elf: $(BUILD_DIR)/$(TARGET).elf
-bin: $(BUILD_DIR)/$(TARGET).bin
+bin: $(BUILD_DIR)/$(TARGET)35.bin
 hex: $(BUILD_DIR)/$(TARGET).hex
 eep: $(BUILD_DIR)/$(TARGET).eep
 lss: $(BUILD_DIR)/$(TARGET).lss
